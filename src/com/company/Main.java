@@ -8,9 +8,9 @@ public class Main {
         InputData inputData = new InputData();
 
         int a[]= inputData.a;
-        int numberOfPlaces = inputData.numberOfPlaces;
-        int numberOfRequest = inputData.numberOfRequest;
-        int stationQuantity = inputData.stationQuantity;
+        int numberOfPlaces = inputData.getNumberOfPlaces();
+        int numberOfRequest = inputData.getNumberOfRequest();
+        int stationQuantity = inputData.getStationQuantity();
 
         pIS.TrainRoad(stationQuantity);
 

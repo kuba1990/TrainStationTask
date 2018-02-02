@@ -1,6 +1,21 @@
 package com.company;
 
 public class InputData {
+   private int stationQuantity;
+   private int numberOfPlaces;
+   private int numberOfRequest;
+
+    public int getStationQuantity() {
+        return a[0];
+    }
+
+    public int getNumberOfPlaces() {
+        return a[1];
+    }
+
+    public int getNumberOfRequest() {
+        return a[2];
+    }
 
     int a[] = {
             4, 6, 4,
@@ -8,9 +23,4 @@ public class InputData {
             1, 3, 2,
             2, 4, 3,
             1, 2, 3};
-
-    int stationQuantity = a[0]; //4
-    int numberOfPlaces = a[1]; //6
-    int numberOfRequest = a[2]; //4
-
 }
